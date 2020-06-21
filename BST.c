@@ -9,8 +9,6 @@ void insert(node *, node *);
 void inorder(node *);
 void preorder(node *);
 void postorder(node *);
-//node *search(node *,int, node**);
-//option code for searching
 void find(int item,struct node **par,struct node **loc)
 {
    struct node *ptr,*ptrsave, *root;

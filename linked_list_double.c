@@ -186,7 +186,7 @@ void delete()
             temp2->prev->next = temp2->next;    /* Might not need this statement if i == 1 check */
         if (i == 1)
             h = temp2->next;
-        printf("\n Node deleted");
+            printf("\n Node deleted");
         free(temp2);
     }
     count--;

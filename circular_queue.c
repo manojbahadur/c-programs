@@ -22,7 +22,7 @@ void main()
 						if(front == -1) front = 0;
         				rear = (rear + 1)%n;
         				a[rear] = item;
-						printf("\n Inserted -> %d", item);;
+						printf("\n Inserted -> %d", item);
 					}
 					break;
 			case 2:
